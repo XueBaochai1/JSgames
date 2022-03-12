@@ -7,25 +7,22 @@
     grid-template-rows: 120px 120px 120px;
     justify-content: center;
    
-  
-
 }
 
 .box {
     background-color: aquamarine;
-    border: 2px solid whitesmoke; 
+    margin: 2px;
     position: relative;
     transition: linear;
     transform-style: preserve-3d;
+    cursor: pointer;
     
 }
-
-.box:hover {transform: rotateY(180deg);} 
+ 
 
 .front-face, .back-face {
     position: absolute; 
-    
-
+    border: 5px solid blue;
   
 }
 
@@ -33,15 +30,15 @@
 .back-face {
     backface-visibility: hidden;
     z-index: 2;
-
 }
 
 .front-face
      {
     transform: rotateY(180deg); 
     z-index: 1;
-      
- 
+     }
+.flipcard {
+    transform: rotateY(180deg);
 
 }
 
