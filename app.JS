@@ -1,17 +1,11 @@
 
-    // scripts.js
-    
-// scripts.js
+    // app.JS
+const card = document.getElementById("card")
 
-const card = document.getElementsByClassName("Box").addEventListener("click",flipcard);
+card.addEventListener("click",flipCard);
 
-box.addEventListener("click",flipcard);
-
-function flipcard() {
-    box.classlist.toggle("flipcard");
+function flipCard(card) {
+  card.classList.toggle("flipCard");
 }
-
-       
-
 
 

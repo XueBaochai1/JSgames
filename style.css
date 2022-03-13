@@ -9,7 +9,7 @@
    
 }
 
-.box {
+.card {
     background-color: aquamarine;
     margin: 2px;
     position: relative;
@@ -18,17 +18,21 @@
     cursor: pointer;
     
 }
+
+.card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+}
  
 
 .front-face, .back-face {
     position: absolute; 
-    border: 5px solid blue;
-  
+    border: 5px solid blue;  
+    backface-visibility: hidden; 
 }
 
 
 .back-face {
-    backface-visibility: hidden;
+  
     z-index: 2;
 }
 

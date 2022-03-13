@@ -5,107 +5,107 @@
 <head>
     <link rel="stylesheet"  href="style.css"></link>
 
-</head>
-
+    <script type="text/javascript" src="app.JS" charset="utf-8"></script>
 <title>Memory Game</title>
-
 <div>
     
 <section class="MemoryGame"> 
 
 
-<h1>Score:<span id="result"></span></h1>
+    
+<h1>Score:<span id="result"></span>
+</h1>
 
 
-<div class="gameboard">
-<div class="box" data-framework="Luna">
+<div class="gameboard" id="card">
+<div class="card" data-framework="Luna">
     <img class="front-face" src="images/index.jpeg" alt="Luna" width="120" height="120">
     
     <img class="back-face"  src="images/pinkpixelcat.png"
     alt="CAT GAME" width="120" height="120">
 </div>
-<div class="box" data-framework="Luna"> 
+<div class="card" data-framework="Luna"> 
     <img class="front-face" src="images/index.jpeg" alt="Luna" width="120" height="120">
     
         <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
     </div>
 
-<div class="box"data-framework="magiccarpetcat">
+<div class="card" data-framework="magiccarpetcat">
     <img class="front-face" src="images/magiccarpetcat.png" alt="magiccarpetcat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
 
 
-<div class="box" data-framework="magiccarpetcat">
+<div class="card" data-framework="magiccarpetcat">
     <img class="front-face" src="images/magiccarpetcat.png" alt="magiccarpetcat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
 
-<div class="box" data-framework="meow">  
+<div class="card" data-framework="meow">  
     <img class="front-face" src="images/greycat.jpeg"
      alt="meow" width="120" height="120">
      <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
-<div class="box" data-framework="meow" >  
+<div class="card" data-framework="meow">  
     <img class="front-face" src="images/greycat.jpeg"
      alt="meow" width="120" height="120"> 
      <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
     </div>
 
-
-
-<div class="box" data-framework="balloon">
+<div class="card" data-framework="balloon">
     <img class="front-face" src="images/catwithredballoon-0"
     alt="balloon" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
-<div class="box" data-framework="balloon">
+<div class="card" data-framework="balloon">
     <img class="front-face" src="images/catwithredballoon-0"
     alt="balloon" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
 
-<div class="box" data-framework="purplecat">
+<div class="card" data-framework="purplecat">
     <img class="front-face" src="images/purplecat-0"
     alt="purplecat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
 
-<div class="box" data-framework="purplecat">
+<div class="card" data-framework="purplecat">
     <img class="front-face" src="images/purplecat-0"
     alt="purplecat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
-<div class="box" data-framework="rainbownyancat">
+<div class="card" data-framework="rainbownyancat">
     <img class="front-face" src="images/rainbownyancat-0"
     alt="rainbownyancat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
-<div class="box" data-framework="rainbownyancat">
+<div class="card" data-framework="rainbownyancat">
     <img class="front-face" src="images/rainbownyancat-0"
     alt="rainbownyancat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 </div>
 
-<div class="box" data-framework="whitecat">
+<div class="card" data-framework="whitecat">
     <img class="front-face" src="images/whitecat-0" alt="whitecat" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120"> 
 </div>
-<div class="box" data-framework="whitecat">
+<div class="card" data-framework="whitecat">
     <img class="front-face" src="images/whitecat-0"
      alt="whitecat" width="120" height="120">
      <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120"> 
 </div>
-<div class="box" data-framework="princess">
+<div class="card" data-framework="princess">
     <img class="front-face" src="images/princesscat.png" alt="princess" width="120" height="120">
     <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
 
 </div>
-<div class="box" data-framework="princess ">
+<div class="card" data-framework="princess">
     <img class="front-face" src="images/princesscat.png"
      alt="princess" width="120" height="120">
      <img class="back-face" src="images/pinkpixelcat.png" alt="CAT GAME" width="120" height="120">
     </div>
+</div>
+
 </div>
 </div></section>
 
@@ -113,7 +113,9 @@
 
 
 
-<script scr="app.js"></script>
-</body>
+</body> 
+<script type="text/javascript" src="app.JS" charset="utf-8"></script>
+<title>Memory Game</title>
+
 </html>
 
